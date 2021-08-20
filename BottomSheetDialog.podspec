@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BottomSheetDialog'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.swift_version    = '4.2'
-  s.summary          = 'A library to make the Android style bottom sheet dialog for iOS.'
+  s.summary          = 'A library for using the bottom sheet dialog in iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BottomSheetDialog/Classes/**/*'
   
-  s.resource_bundles = {
+  # s.resource_bundles = {
     'BottomSheetDialog' => ['BottomSheetDialog/Assets/*.png']
   }
 
