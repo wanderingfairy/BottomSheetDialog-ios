@@ -1,0 +1,16 @@
+PODS:
+  - BottomSheetDialog (0.1.0)
+
+DEPENDENCIES:
+  - BottomSheetDialog (from `../`)
+
+EXTERNAL SOURCES:
+  BottomSheetDialog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BottomSheetDialog: 4fc4c6b23db1ec8d23ce5bb94716c53475d76422
+
+PODFILE CHECKSUM: 4d8f1b151f7ca807821097551f3e24d9ca8587e5
+
+COCOAPODS: 1.10.1

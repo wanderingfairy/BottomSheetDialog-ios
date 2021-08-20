@@ -1,0 +1,27 @@
+{
+  "name": "BottomSheetDialog",
+  "version": "0.1.0",
+  "summary": "A library to make the Android style bottom sheet dialog for iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanderingfairy/ios-bottom-sheet-dialog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanderingfairy": "iospandaman@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wanderingfairy/ios-bottom-sheet-dialog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "BottomSheetDialog/Classes/**/*",
+  "resource_bundles": {
+    "BottomSheetDialog": [
+      "BottomSheetDialog/Assets/*.png"
+    ]
+  }
+}

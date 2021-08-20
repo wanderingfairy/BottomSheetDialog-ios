@@ -1,0 +1,6 @@
+framework module BottomSheetDialog {
+  umbrella header "BottomSheetDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}
