@@ -23,10 +23,13 @@ class ViewController: UIViewController, BottomDialogDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    let button = UIButton(frame: CGRect(x: 100, y: 100, width: 40, height: 40))
+    button.backgroundColor = .blue
+    view.addSubview(button)
+    button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
   }
   
-  override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
+  @objc func didTapButton() {
     let sheet = BottomDialogView(titles: ["delete",
                                           "cancel"],
                                  images: [UIImage(named: "trash")!
@@ -45,6 +48,10 @@ class ViewController: UIViewController, BottomDialogDelegate {
     
     view.addSubview(sheet)
     sheet.show()
+  }
+  
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
   }
   
   override func didReceiveMemoryWarning() {
