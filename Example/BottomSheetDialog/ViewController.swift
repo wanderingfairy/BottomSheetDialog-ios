@@ -12,9 +12,11 @@ import BottomSheetDialog
 class ViewController: UIViewController, BottomDialogDelegate {
   
   func didTapSheet(title: String, tag: Int) {
-    switch tag {
+    switch title {
+    case "delete":
+      print("delete")
     default:
-      print(tag)
+      print(title)
     }
   }
   
@@ -25,9 +27,12 @@ class ViewController: UIViewController, BottomDialogDelegate {
   
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    let sheet = BottomDialogView(titles: ["delete", "cancel"],
-                                 images: [UIImage(named: "trash")!.withRenderingMode(.alwaysOriginal),
-                                          UIImage(named: "xmark")!.withRenderingMode(.alwaysOriginal)])
+    let sheet = BottomDialogView(titles: ["delete",
+                                          "cancel"],
+                                 images: [UIImage(named: "trash")!
+                                            .withRenderingMode(.alwaysOriginal),
+                                          UIImage(named: "xmark")!
+                                            .withRenderingMode(.alwaysOriginal)])
     sheet.delegate = self
     sheet.titleFont = UIFont.systemFont(ofSize: 14, weight: .regular)
     sheet.sheetHeight = 56
@@ -35,6 +40,9 @@ class ViewController: UIViewController, BottomDialogDelegate {
     sheet.removeFromSuperviewWhenDidTap = true
     sheet.sheetCornerRadius = 14
     sheet.sheetBottomPadding = view.safeAreaInsets.bottom
+    sheet.sheetBorderWidth = 0.5
+    sheet.sheetBorderColor = .gray
+    
     view.addSubview(sheet)
     sheet.show()
   }
