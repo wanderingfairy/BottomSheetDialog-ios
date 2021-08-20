@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BottomSheetDialog_Example' do
+  pod 'BottomSheetDialog', :path => '../'
+
+  target 'BottomSheetDialog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
