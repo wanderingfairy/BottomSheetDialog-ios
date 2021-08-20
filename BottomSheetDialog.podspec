@@ -34,8 +34,8 @@ TODO: Add long description of the pod here.
   s.source_files = 'BottomSheetDialog/Classes/**/*'
   
   # s.resource_bundles = {
-    'BottomSheetDialog' => ['BottomSheetDialog/Assets/*.png']
-  }
+  #  'BottomSheetDialog' => ['BottomSheetDialog/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
