@@ -46,10 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07A2A6283BFC0E4D4AF25459354E58DE /* BottomSheetDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BottomSheetDialog.framework; path = BottomSheetDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A2A6283BFC0E4D4AF25459354E58DE /* BottomSheetDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BottomSheetDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A745C85094EA8C558C3BAFC5FE4DFFA /* BottomDialogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomDialogView.swift; path = BottomSheetDialog/Classes/BottomDialogView.swift; sourceTree = "<group>"; };
 		0BB12809F253C08BA6A3980C537E5455 /* Pods-BottomSheetDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BottomSheetDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F6A1DD78E2285DBCD4333B83E5C3232 /* Pods_BottomSheetDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BottomSheetDialog_Tests.framework; path = "Pods-BottomSheetDialog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6A1DD78E2285DBCD4333B83E5C3232 /* Pods_BottomSheetDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottomSheetDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFCFE982E2F963A15BB05D0AC617CAD /* BottomSheetDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BottomSheetDialog-prefix.pch"; sourceTree = "<group>"; };
 		22D2A1585E471DA76466933BA23FDFA0 /* BottomSheetDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BottomSheetDialog-dummy.m"; sourceTree = "<group>"; };
 		2613E961E8EC000595CA68ADA11019A1 /* Pods-BottomSheetDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BottomSheetDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,22 +66,22 @@
 		7B0E2BF97B1328AF4675D4C144351285 /* Pods-BottomSheetDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BottomSheetDialog_Example-umbrella.h"; sourceTree = "<group>"; };
 		7C181A4766C1298FDFC03EA72DB39E88 /* ResourceBundle-BottomSheetDialog-BottomSheetDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BottomSheetDialog-BottomSheetDialog-Info.plist"; sourceTree = "<group>"; };
 		80CA6968CB74F32FF75C7FB0ADF64762 /* BottomSheetDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BottomSheetDialog-Info.plist"; sourceTree = "<group>"; };
-		827018F8F7688D322843E48BCDE3F7C7 /* BottomSheetDialog.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BottomSheetDialog.bundle; path = "BottomSheetDialog-BottomSheetDialog.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827018F8F7688D322843E48BCDE3F7C7 /* BottomSheetDialog.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomSheetDialog.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		866804D4856B620EA0B818D7CD8DC200 /* BottomSheetDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BottomSheetDialog.release.xcconfig; sourceTree = "<group>"; };
 		87D98F8DF85B92C038DC97514C390170 /* Pods-BottomSheetDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BottomSheetDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		90BFB59017B050057E60B667AC8F0FFC /* Pods-BottomSheetDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BottomSheetDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96854AE57354515E098D967CD7272CAD /* Pods-BottomSheetDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BottomSheetDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		98133A20B77643013204E1DC167E63B9 /* Pods-BottomSheetDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BottomSheetDialog_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A75BA02BE31D141786280C3503555EA6 /* BottomSheetDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BottomSheetDialog.debug.xcconfig; sourceTree = "<group>"; };
 		BBA287EE39DB1D34696276C34BE5BAD3 /* Pods-BottomSheetDialog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BottomSheetDialog_Tests-Info.plist"; sourceTree = "<group>"; };
 		C5D516DC00A40615773C3659F1EFAF7A /* Pods-BottomSheetDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BottomSheetDialog_Tests-dummy.m"; sourceTree = "<group>"; };
 		CEABDC1C7CD07DC4A97AFF08AE21DA8C /* Pods-BottomSheetDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BottomSheetDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DDAC0EEE149A5DA19E9EC6775F41CA23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E808BFA6857BB51B0A4BA79BBCA7F0E6 /* BottomSheetDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BottomSheetDialog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E883FCDD2A1C17FA1524893FEAAC3386 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DDAC0EEE149A5DA19E9EC6775F41CA23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E808BFA6857BB51B0A4BA79BBCA7F0E6 /* BottomSheetDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BottomSheetDialog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E883FCDD2A1C17FA1524893FEAAC3386 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F9225A496ED6A3A4CF2224D9B8FFAA41 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Extensions.swift"; path = "BottomSheetDialog/Classes/CALayer+Extensions.swift"; sourceTree = "<group>"; };
-		FE1526E602488224280E892F4FE60D34 /* Pods_BottomSheetDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BottomSheetDialog_Example.framework; path = "Pods-BottomSheetDialog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1526E602488224280E892F4FE60D34 /* Pods_BottomSheetDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottomSheetDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -579,7 +579,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -641,8 +641,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -673,7 +672,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
